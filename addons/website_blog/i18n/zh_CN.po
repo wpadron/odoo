@@ -3,18 +3,20 @@
 # * website_blog
 # 
 # Translators:
-# 珠海-老天 <liangjia@qq.com>, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2016
+# liAnGjiA <liangjia@qq.com>, 2015
+# liAnGjiA <liangjia@qq.com>, 2015
 # mrshelly <mrshelly@hotmail.com>, 2015
 # SHOM <shanmuxin@yeah.net>, 2015
 # SHOM <shanmuxin@yeah.net>, 2015
-# 珠海-老天 <liangjia@qq.com>, 2015
+# liAnGjiA <liangjia@qq.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-09-08 01:59+0000\n"
-"Last-Translator: mrshelly <mrshelly@hotmail.com>\n"
+"PO-Revision-Date: 2016-06-18 02:48+0000\n"
+"Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +55,7 @@ msgid ""
 "                    Click to create a new blog post.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n点击创建一个新文章。\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n点击创建新文章。\n</p>"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -230,7 +232,7 @@ msgid ""
 "            </p>\n"
 "        </section>\n"
 "\n"
-msgstr ""
+msgstr "<section class=\"row readable\">\n            <div class=\"col-md-12 mb32\">\n                <img class=\"img-responsive\" src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n            </div>\n            <div class=\"col-md-6 col-md-offset-3 mb16 mt16\">\n                <p class=\"text-center\" data-chatter-id=\"counter_0/section/div\">\n                    新功能出来啦！\n                </p>\n                <p class=\"text-center\" data-chatter-id=\"counter_1/section/div\">\n                    就今天！就今天！Odoo新特性已全面铺开啦！\n                    网站内容管理系统 (CMS\n                    或WMS) 首发beta测试版\n                    记住今天这个日子, 2014-01-31.\n                </p>\n            </div>\n        </section>\n        <section class=\"readable\">\n            <p data-chatter-id=\"counter_2/section\">\n                Odoo标榜 '开源及非常容易\n                快速建立企业网站'. 这句话体现\n                在哪里呢?\n            </p><p data-chatter-id=\"counter_3/section\">\n                \"Odoo最新推出的功能可让企业做电商\n                z在线零售,&#8221; Stuart\n                Mackintosh, MD of Open Source specialist and Odoo\n                integration partner, OpusVL, explains. &#8220;The investment\n                required to have a fully automated business system is\n                dramatically reduced, enabling the small and medium\n                enterprise to compete at a level of functionality and\n                performance previously reserved for the big IT investors.\"\n            </p>\n            <blockquote>\n                <p data-chatter-id=\"counter_4/section/blockquote\">\n                    \"终于，前沿已在向大众普及。现在就将发生转变——大公司得追赶中小企业的尖端技术了。\"\n                </p>\n            </blockquote>\n            <p data-chatter-id=\"counter_5/section\">\n                \"Odoo 重新定义了ERP技术市场，这让传统ERP技术市场颤抖了，迫使传统\nERP支持服务商自我审视服务内容，以提供更具价值的解决方案。\"\n            </p><p data-chatter-id=\"counter_6/section\">\n                \"Odoo now competes on many fronts, with no real\n                competition out there to knock them off the top spot.\n                With the launch of their integrated CMS and Ecommerce\n                systems,it only elevates their position as one of the leading\n                lights in the open source revolution. It will be at least 5\n                years before another ERP or CMS provider will be able to\n                compete at this level due to the technology currently\n                employed by most industry providers.\"\n            </p>\n            <h4>Adding to industry leading technology</h4>\n            <p data-chatter-id=\"counter_7/section\">\n同现在流行的网站内容编辑器一样，Odoo 也可以在位编辑页面内容。允许\n即刻编辑所见即所得的网页内容。\n            </p><p data-chatter-id=\"counter_8/section\">\n                However, unlike other web content management systems, it\n                fully integrates into the back-end database. This means\n                that when you edit a product description, image or price,\n                it updates the product database in real time, providing a\n                true self-service window into the business.\n            </p><p data-chatter-id=\"counter_9/section\">\n                This provides a single source of data for your company and\n                removes the need to create offline synchronisation between\n                website and product database.\n            </p><p data-chatter-id=\"counter_10/section\">\n                As it comes, there is a default website based on Bootstrap\n                3, the latest industry standard for rapid development of\n                multi-device websites backed by Twitter, so can be directly\n                integrated with many web tools and works across all devices\n                by default.\n            </p>\n        </section>\n"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:211
@@ -282,7 +284,7 @@ msgstr "背景图片"
 #: view:blog.blog:website_blog.view_blog_blog_form
 #: view:blog.post:website_blog.view_blog_post_search field:blog.post,blog_id:0
 msgid "Blog"
-msgstr "博文"
+msgstr "博客"
 
 #. module: website_blog
 #: field:blog.blog,name:0
@@ -549,7 +551,7 @@ msgstr "用此工具条可以移动、复制或删除选中的区域。点击垃
 #. module: website_blog
 #: view:blog.post:website_blog.view_blog_post_search
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: website_blog
 #: field:blog.post,history_ids:0
@@ -991,7 +993,7 @@ msgstr "网站沟通记录"
 #: field:blog.post,website_meta_description:0
 #: field:blog.tag,website_meta_description:0
 msgid "Website meta description"
-msgstr "网站meta描述"
+msgstr "网站meta说明"
 
 #. module: website_blog
 #: field:blog.blog,website_meta_keywords:0

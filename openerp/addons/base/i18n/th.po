@@ -4,13 +4,14 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-08 14:50+0000\n"
-"PO-Revision-Date: 2015-09-18 09:43+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"POT-Creation-Date: 2015-10-19 06:31+0000\n"
+"PO-Revision-Date: 2016-07-29 05:48+0000\n"
+"Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
 "Language-Team: Thai (http://www.transifex.com/odoo/odoo-8/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +31,7 @@ msgid ""
 "    增加小企业会计科目表\n"
 "    \n"
 "    "
-msgstr ""
+msgstr "\n\n    科目类型\\会计科目表模板\\增值税\\辅助核算类别\\管理会计凭证簿\\财务会计凭证簿\n\n    添加中文省份数据\n\n    增加小企业会计科目表\n    \n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_pos_restaurant
@@ -1792,6 +1793,17 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_sa
+msgid ""
+"\n"
+"Odoo Arabic localization for most arabic countries and Saudi Arabia.\n"
+"\n"
+"This initially includes chart of accounts of USA translated to Arabic.\n"
+"\n"
+"In future this module will include some payroll rules for ME .\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_im_odoo_support
 msgid ""
 "\n"
@@ -2265,7 +2277,7 @@ msgid ""
 "\n"
 "Report\n"
 "        "
-msgstr ""
+msgstr "\nรายงาน\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_fetchmail
@@ -3897,7 +3909,7 @@ msgstr "%H - ชัวโมง (24-hour clock) [00,23]."
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%I - Hour (12-hour clock) [01,12]."
-msgstr ""
+msgstr "%I - ชั่วโมง (แบบ 12 ชั่วโมง) [01,12]."
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -3938,12 +3950,12 @@ msgstr "%Y - ปีกับศตวรรษ"
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%a - Abbreviated weekday name."
-msgstr ""
+msgstr "%a - ชื่อวันแบบย่อ"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%b - Abbreviated month name."
-msgstr ""
+msgstr "%b - ชื่อเดือนแบบย่อ"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -3958,7 +3970,7 @@ msgstr "% d - วันของเดือน [01,31]"
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%j - Day of the year [001,366]."
-msgstr ""
+msgstr "%j - วันที่ในปี [001,366]"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -3991,7 +4003,7 @@ msgstr ""
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%w - Weekday number [0(Sunday),6]."
-msgstr ""
+msgstr "%w - เลขสัปดาห์ [0(วันอาทิตย์),6]."
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -4043,7 +4055,7 @@ msgstr "(แก้ไขที่อยู่ บริษัท)"
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "(reload fonts)"
-msgstr ""
+msgstr "(โหลดฟอนต์ใหม่)"
 
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
@@ -4140,7 +4152,7 @@ msgstr ""
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "5.  %y, %Y         ==> 08, 2008"
-msgstr ""
+msgstr "5.  %y, %Y         ==> 08, 2008"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -4155,7 +4167,7 @@ msgstr "7.  %H:%M:%S      ==> 18:25:20"
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "8.  %I:%M:%S %p  ==> 06:25:20 PM"
-msgstr ""
+msgstr "8.  %I:%M:%S %p  ==> 06:25:20 PM"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -4382,7 +4394,7 @@ msgstr "กลุ่มการเข้าถึง"
 #. module: base
 #: field:res.groups,menu_access:0
 msgid "Access Menu"
-msgstr ""
+msgstr "เมนูเข้าถึง"
 
 #. module: base
 #: view:ir.model:base.view_model_form view:ir.rule:base.view_rule_form
@@ -4396,7 +4408,7 @@ msgstr "สิทธิ์การเข้าใช้งาน"
 #. module: base
 #: view:ir.model:base.view_model_form view:res.groups:base.view_groups_form
 msgid "Access Rules"
-msgstr ""
+msgstr "กฎการเข้าถึง"
 
 #. module: base
 #: code:addons/models.py:4485
@@ -4412,12 +4424,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_localization_account_charts
 msgid "Account Charts"
-msgstr ""
+msgstr "ผังบัญชี"
 
 #. module: base
 #: field:res.company,account_no:0
 msgid "Account No."
-msgstr ""
+msgstr "เลขที่บัญชี"
 
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_form
@@ -4470,7 +4482,7 @@ msgstr "ปฏิบัติ"
 #. module: base
 #: field:ir.values,action_id:0
 msgid "Action (change only)"
-msgstr ""
+msgstr "การดำเนินการ (เปลี่ยนแปลงเท่านั้น)"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.act_values_form_action
@@ -4493,12 +4505,12 @@ msgstr "ชื่อการกระทำ"
 #. module: base
 #: view:ir.values:base.values_view_form_action
 msgid "Action Reference"
-msgstr ""
+msgstr "อ้างอิงการดำเนินการ"
 
 #. module: base
 #: field:ir.actions.act_url,target:0
 msgid "Action Target"
-msgstr ""
+msgstr "เป้าหมายการดำเนินการ"
 
 #. module: base
 #: field:ir.actions.server,state:0
@@ -4517,7 +4529,7 @@ msgstr "ชนิดการทำงาน"
 #. module: base
 #: field:ir.actions.act_url,url:0
 msgid "Action URL"
-msgstr ""
+msgstr "URL ของการดำเนินการ"
 
 #. module: base
 #: field:ir.actions.act_url,usage:0 field:ir.actions.act_window,usage:0
@@ -4525,7 +4537,7 @@ msgstr ""
 #: field:ir.actions.client,usage:0 field:ir.actions.report.xml,usage:0
 #: field:ir.actions.server,usage:0
 msgid "Action Usage"
-msgstr ""
+msgstr "การใช้งานการดำเนินการ"
 
 #. module: base
 #: help:ir.values,action_id:0
@@ -4639,7 +4651,7 @@ msgstr "ชนิดที่อยู่"
 #. module: base
 #: view:res.country:base.view_country_form
 msgid "Address format..."
-msgstr ""
+msgstr "รูปแบบที่อยู่"
 
 #. module: base
 #: model:ir.module.module,description:base.module_auth_ldap
@@ -4764,6 +4776,11 @@ msgstr ""
 #. module: base
 #: selection:res.currency,position:0
 msgid "After Amount"
+msgstr ""
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_aftersale
+msgid "After-Sale Services"
 msgstr ""
 
 #. module: base
@@ -4921,7 +4938,7 @@ msgstr "นำไปใช้"
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #, python-format
 msgid "Apply Schedule Upgrade"
-msgstr ""
+msgstr "ใช้งานการอัพเกรดตามกำหนดการ"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_view_base_module_upgrade
@@ -4931,7 +4948,7 @@ msgstr "ใช้อัปเกรดตามกำหนดการ"
 #. module: base
 #: field:ir.rule,perm_create:0
 msgid "Apply for Create"
-msgstr ""
+msgstr "ใช้กับการสร้าง"
 
 #. module: base
 #: field:ir.rule,perm_unlink:0
@@ -4941,12 +4958,12 @@ msgstr "ยืนยันการลบ"
 #. module: base
 #: field:ir.rule,perm_read:0
 msgid "Apply for Read"
-msgstr ""
+msgstr "ใช้กับการอ่าน"
 
 #. module: base
 #: field:ir.rule,perm_write:0
 msgid "Apply for Write"
-msgstr ""
+msgstr "ใช้กับการแก้ไข"
 
 #. module: base
 #: model:ir.actions.client,name:base.modules_act_cl
@@ -4958,7 +4975,7 @@ msgstr "แอพ"
 #. module: base
 #: selection:base.language.install,lang:0
 msgid "Arabic / الْعَرَبيّة"
-msgstr ""
+msgstr "อาราบิค / الْعَرَبيّة"
 
 #. module: base
 #: view:ir.ui.view:base.view_view_form
@@ -5007,6 +5024,8 @@ msgstr "การจัดการสินทรัพย์"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_association
+#: model:ir.ui.menu,name:base.menu_association
+#: model:ir.ui.menu,name:base.menu_report_association
 msgid "Association"
 msgstr "การเชื่อมโยง"
 
@@ -5051,6 +5070,7 @@ msgstr "แนบไฟล์"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_attendance
+#: model:res.groups,name:base.group_hr_attendance
 msgid "Attendances"
 msgstr ""
 
@@ -5126,7 +5146,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.menu,name:base.menu_automation
 msgid "Automation"
-msgstr ""
+msgstr "การทำงานอัตโนมัติ"
 
 #. module: base
 #: model:res.country,name:base.az
@@ -5175,7 +5195,7 @@ msgstr "บัญชีธนาคาร"
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_form
 msgid "Bank Account Owner"
-msgstr ""
+msgstr "เจ้าของบัญชีธนาคาร"
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_bank_type
@@ -5189,7 +5209,7 @@ msgstr "ชนิดบัญชีธนาคาร"
 #: model:ir.actions.act_window,name:base.action_res_partner_bank_type_form
 #: model:ir.ui.menu,name:base.menu_action_res_partner_bank_typeform
 msgid "Bank Account Types"
-msgstr ""
+msgstr "ประเภทบัญชีธนาคาร"
 
 #. module: base
 #: code:addons/base/res/res_company.py:175
@@ -5201,7 +5221,7 @@ msgstr ""
 #: view:res.partner.bank:base.view_partner_bank_tree
 #, python-format
 msgid "Bank Accounts"
-msgstr ""
+msgstr "บัญชีธนาคาร"
 
 #. module: base
 #: field:res.bank,bic:0 field:res.partner.bank,bank_bic:0
@@ -5250,6 +5270,11 @@ msgstr ""
 #: view:res.bank:base.view_res_bank_tree field:res.partner,bank_ids:0
 msgid "Banks"
 msgstr "ธนาคาร"
+
+#. module: base
+#: help:res.partner,ean13:0 help:res.users,ean13:0
+msgid "BarCode"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bb
@@ -5328,7 +5353,7 @@ msgstr ""
 #. module: base
 #: selection:res.currency,position:0
 msgid "Before Amount"
-msgstr ""
+msgstr "จำนวนก่อน"
 
 #. module: base
 #: model:res.country,name:base.by
@@ -5599,7 +5624,7 @@ msgstr "แคนาดา"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ca
 msgid "Canada - Accounting"
-msgstr ""
+msgstr "แคนาดา - การบัญชี"
 
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
@@ -6078,7 +6103,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:base.action_inventory_form
 #: model:ir.ui.menu,name:base.menu_action_inventory_form
 msgid "Company Defaults"
-msgstr ""
+msgstr "ค่าเริ่มต้นบริษัท"
 
 #. module: base
 #: field:res.company,name:0
@@ -6120,7 +6145,7 @@ msgstr "โครงสร้างบริษัท"
 #. module: base
 #: field:res.partner,contact_address:0
 msgid "Complete Address"
-msgstr ""
+msgstr "ที่อยู่แบบเต็ม"
 
 #. module: base
 #: field:ir.model.data,complete_name:0
@@ -6172,6 +6197,10 @@ msgstr "ตัวช่วยสร้าง ขั้นตอนการต�
 #. module: base
 #: model:ir.ui.menu,name:base.menu_base_config
 #: model:ir.ui.menu,name:base.menu_config
+#: model:ir.ui.menu,name:base.menu_definitions
+#: model:ir.ui.menu,name:base.menu_event_config
+#: model:ir.ui.menu,name:base.menu_marketing_config_association
+#: model:ir.ui.menu,name:base.menu_marketing_config_root
 #: model:ir.ui.menu,name:base.menu_reporting_config
 #: view:res.company:base.view_company_form
 #: view:res.config:base.res_config_view_base
@@ -6181,7 +6210,7 @@ msgstr "ตั้งค่า"
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "Configuration (RML)"
-msgstr ""
+msgstr "การตั้งค่า (RML)"
 
 #. module: base
 #: view:res.config.installer:base.res_config_installer
@@ -6273,7 +6302,7 @@ msgstr "ที่อยู่ติดต่อ"
 #. module: base
 #: model:res.groups,name:base.group_partner_manager
 msgid "Contact Creation"
-msgstr ""
+msgstr "สร้างผู้ติดต่อ"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm
@@ -6283,7 +6312,7 @@ msgstr ""
 #. module: base
 #: field:res.partner,ref:0
 msgid "Contact Reference"
-msgstr ""
+msgstr "อ้างอิงผู้ติดต่อ"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_title_contact
@@ -6401,7 +6430,7 @@ msgstr "ประเทศ"
 #. module: base
 #: field:res.country,code:0
 msgid "Country Code"
-msgstr ""
+msgstr "รหัสประเทศ"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_group
@@ -6410,12 +6439,12 @@ msgstr ""
 #: view:res.country.group:base.view_country_group_form
 #: view:res.country.group:base.view_country_group_tree
 msgid "Country Group"
-msgstr ""
+msgstr "กลุ่มประเทศ"
 
 #. module: base
 #: field:res.country,country_group_ids:0
 msgid "Country Groups"
-msgstr ""
+msgstr "กลุ่มประเทศ"
 
 #. module: base
 #: field:res.country,name:0
@@ -6425,7 +6454,7 @@ msgstr "ชื่อประเทศ"
 #. module: base
 #: model:ir.model,name:base.model_res_country_state
 msgid "Country state"
-msgstr ""
+msgstr "จังหวัด"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -6444,6 +6473,7 @@ msgstr "สร้างสิทธิการเข้าถึง"
 
 #. module: base
 #: field:ir.logging,create_date:0 field:ir.ui.view,create_date:0
+#: field:res.partner,create_date:0 field:res.users,create_date:0
 msgid "Create Date"
 msgstr "วันที่สร้าง"
 
@@ -6613,13 +6643,11 @@ msgstr "สร้างโดย"
 #: field:res.country.group,create_date:0 field:res.country.state,create_date:0
 #: field:res.currency,create_date:0 field:res.currency.rate,create_date:0
 #: field:res.font,create_date:0 field:res.groups,create_date:0
-#: field:res.lang,create_date:0 field:res.partner,create_date:0
-#: field:res.partner.bank,create_date:0
+#: field:res.lang,create_date:0 field:res.partner.bank,create_date:0
 #: field:res.partner.bank.type,create_date:0
 #: field:res.partner.bank.type.field,create_date:0
 #: field:res.partner.category,create_date:0
 #: field:res.partner.title,create_date:0 field:res.request.link,create_date:0
-#: field:res.users,create_date:0
 #: field:wizard.ir.model.menu.create,create_date:0
 #: field:workflow,create_date:0 field:workflow.activity,create_date:0
 #: field:workflow.transition,create_date:0
@@ -6634,12 +6662,12 @@ msgstr "การสร้าง"
 #. module: base
 #: view:ir.attachment:base.view_attachment_search
 msgid "Creation Month"
-msgstr ""
+msgstr "เดือนที่สร้าง"
 
 #. module: base
 #: field:ir.actions.server,use_create:0
 msgid "Creation Policy"
-msgstr ""
+msgstr "นโยบายการสร้าง"
 
 #. module: base
 #: field:res.partner,credit_limit:0
@@ -6677,7 +6705,7 @@ msgstr ""
 #: view:res.currency:base.view_currency_search
 #: view:res.currency:base.view_currency_tree
 msgid "Currencies"
-msgstr ""
+msgstr "สกุลเงิน"
 
 #. module: base
 #: model:ir.model,name:base.model_res_currency field:res.company,currency_id:0
@@ -6778,7 +6806,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_customer
 msgid "Customer References"
-msgstr ""
+msgstr "อ้างอิงลูกค้า"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_customer_relationship_management
@@ -6841,7 +6869,7 @@ msgstr ""
 #. module: base
 #: view:ir.logging:base.ir_logging_search_view
 msgid "Database"
-msgstr ""
+msgstr "ฐานข้อมูล"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_anonymization
@@ -6851,7 +6879,7 @@ msgstr "Anonymization ฐานข้อมูล"
 #. module: base
 #: field:ir.attachment,db_datas:0
 msgid "Database Data"
-msgstr ""
+msgstr "ข้อมูลฐานข้อมูล"
 
 #. module: base
 #: help:ir.actions.act_window,res_id:0
@@ -6863,7 +6891,7 @@ msgstr ""
 #. module: base
 #: field:ir.logging,dbname:0
 msgid "Database Name"
-msgstr ""
+msgstr "ชื่อฐานข้อมูล"
 
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_9
@@ -6901,6 +6929,11 @@ msgid "Date Format"
 msgstr "รูปแบบวันที่"
 
 #. module: base
+#: field:ir.attachment,write_date:0
+msgid "Date Modified"
+msgstr ""
+
+#. module: base
 #: selection:ir.property,type:0
 msgid "DateTime"
 msgstr "วันที่เวลา"
@@ -6918,12 +6951,12 @@ msgstr "วัน"
 #. module: base
 #: view:ir.sequence:base.sequence_view
 msgid "Day of the Week (0:Monday): %(weekday)s"
-msgstr ""
+msgstr "วันของสัปดาห์ (0:Monday): %(weekday)"
 
 #. module: base
 #: view:ir.sequence:base.sequence_view
 msgid "Day of the Year: %(doy)s"
-msgstr ""
+msgstr "วันของปี: %(doy)"
 
 #. module: base
 #: view:ir.sequence:base.sequence_view
@@ -6934,6 +6967,19 @@ msgstr "วัน: %(day)"
 #: selection:ir.cron,interval_type:0
 msgid "Days"
 msgstr "วัน"
+
+#. module: base
+#: model:res.company,overdue_msg:base.main_company
+msgid ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+msgstr ""
 
 #. module: base
 #: field:ir.mail_server,smtp_debug:0
@@ -6999,12 +7045,12 @@ msgstr "รายงาน"
 #. module: base
 #: field:ir.model.access,perm_unlink:0
 msgid "Delete Access"
-msgstr ""
+msgstr "สิทธิ์การลบ"
 
 #. module: base
 #: view:ir.rule:base.view_rule_search
 msgid "Delete Access Right"
-msgstr ""
+msgstr "สิทธิ์การลบ"
 
 #. module: base
 #: code:addons/base/ir/ir_actions.py:827
@@ -7131,6 +7177,11 @@ msgid "Display"
 msgstr "แสดงผล"
 
 #. module: base
+#: model:res.groups,name:base.group_website_publisher
+msgid "Display Editor Bar on Website"
+msgstr ""
+
+#. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Display an option on related documents to run this sever action"
 msgstr ""
@@ -7178,6 +7229,11 @@ msgid "Djibouti"
 msgstr "จิบูติ"
 
 #. module: base
+#: model:res.groups,name:base.group_mono_salesteams
+msgid "Do Not Use Sales Teams"
+msgstr ""
+
+#. module: base
 #: model:res.partner.title,name:base.res_partner_title_doctor
 msgid "Doctor"
 msgstr "แพทย์"
@@ -7196,7 +7252,7 @@ msgstr "รูปแบบเอกสาร"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_forum_doc
 msgid "Documentation"
-msgstr ""
+msgstr "เอกสารอ้างอิง"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_documentation_examples
@@ -7284,7 +7340,7 @@ msgid "Dynamic expression builder"
 msgstr ""
 
 #. module: base
-#: field:res.partner,ean13:0
+#: field:res.partner,ean13:0 field:res.users,ean13:0
 msgid "EAN13"
 msgstr ""
 
@@ -7387,7 +7443,7 @@ msgstr "สัญญาลูกจ้าง"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr
 msgid "Employee Directory"
-msgstr ""
+msgstr "สารบบพนักงาน"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_employee_form
@@ -7397,7 +7453,7 @@ msgstr "พนักงาน"
 #. module: base
 #: selection:base.language.install,lang:0
 msgid "English (AU)"
-msgstr ""
+msgstr "ภาษาอังกฤษ (ออสเตรเลีย)"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -7593,17 +7649,17 @@ msgstr "ส่งออกเสร็จสมบูรณ์"
 #. module: base
 #: field:ir.exports,export_fields:0
 msgid "Export ID"
-msgstr ""
+msgstr "ID การส่งออก"
 
 #. module: base
 #: field:ir.exports,name:0
 msgid "Export Name"
-msgstr ""
+msgstr "ชื่อการส่งออก"
 
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid "Export Settings"
-msgstr ""
+msgstr "ตั้งค่าการส่งออก"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_wizard_lang_export
@@ -7709,13 +7765,13 @@ msgstr "โทรสาร:"
 #: field:res.bank,state:0 field:res.company,state_id:0
 #: field:res.partner.bank,state_id:0
 msgid "Fed. State"
-msgstr ""
+msgstr "จังหวัด"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
 #: model:ir.ui.menu,name:base.menu_country_state_partner
 msgid "Fed. States"
-msgstr ""
+msgstr "จังหวัด"
 
 #. module: base
 #: field:ir.actions.server,model_object_field:0
@@ -7750,7 +7806,7 @@ msgstr "ชื่อ ฟิลด์"
 #. module: base
 #: field:ir.model.fields,ttype:0
 msgid "Field Type"
-msgstr ""
+msgstr "ประเภทฟิลด์"
 
 #. module: base
 #: code:addons/base/ir/ir_ui_view.py:830
@@ -7793,7 +7849,7 @@ msgstr "แฟ้ม"
 #. module: base
 #: field:ir.attachment,datas:0
 msgid "File Content"
-msgstr ""
+msgstr "ไฟล์"
 
 #. module: base
 #: field:base.language.export,format:0
@@ -7918,7 +7974,7 @@ msgstr ""
 #. module: base
 #: field:res.font,name:0
 msgid "Font Name"
-msgstr ""
+msgstr "ชื่อฟอนต์"
 
 #. module: base
 #: field:res.font,family:0
@@ -7959,7 +8015,7 @@ msgstr ""
 msgid ""
 "For more details about translating Odoo in your language, please refer to "
 "the"
-msgstr ""
+msgstr "สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการแปล Odoo ในภาษาของคุณ, กรุณาอ้างอิง"
 
 #. module: base
 #: help:ir.model.fields,relation_field:0
@@ -8009,7 +8065,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_forum
 msgid "Forum"
-msgstr ""
+msgstr "ฟอรั่ม"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_forum_doc
@@ -8252,7 +8308,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_drive
 msgid "Google Drive™ integration"
-msgstr ""
+msgstr "การทำงานร่วมกับ Google ไดรฟ์"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_google_spreadsheet
@@ -8409,7 +8465,7 @@ msgstr ""
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #. module: base
 #: help:ir.actions.report.xml,report_type:0
@@ -8423,7 +8479,7 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_ir_http
 msgid "HTTP routing"
-msgstr ""
+msgstr "การกำหนดเส้นทาง HTTP"
 
 #. module: base
 #: model:res.country,name:base.ht
@@ -8545,7 +8601,7 @@ msgstr ""
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid "Here is the exported translation file:"
-msgstr ""
+msgstr "นี่คือไฟล์แปลภาษาที่นำออกมา: "
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:208
@@ -8578,7 +8634,7 @@ msgstr "นครรัฐวาติกัน"
 #. module: base
 #: field:res.users,action_id:0
 msgid "Home Action"
-msgstr ""
+msgstr "หน้าแรก"
 
 #. module: base
 #: model:res.country,name:base.hn
@@ -8645,7 +8701,7 @@ msgstr "ฮังการี"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_iban
 msgid "IBAN Bank Accounts"
-msgstr ""
+msgstr "บัญชีธนาคาร IBAN"
 
 #. module: base
 #: field:_unknown,id:0 field:base.language.export,id:0
@@ -8713,7 +8769,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bus
 msgid "IM Bus"
-msgstr ""
+msgstr "IM Bus"
 
 #. module: base
 #: field:base.language.import,code:0
@@ -8915,6 +8971,11 @@ msgstr ""
 #. module: base
 #: field:ir.sequence,implementation:0
 msgid "Implementation"
+msgstr "การดำเนินการ"
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_import_crm
+msgid "Import & Synchronize"
 msgstr ""
 
 #. module: base
@@ -8996,7 +9057,7 @@ msgstr "ข้อมูลรายละเอียด"
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_form
 msgid "Information About the Bank"
-msgstr ""
+msgstr "ข้อมูลเกี่ยวกับธนาคาร"
 
 #. module: base
 #: view:ir.ui.view:base.view_view_search
@@ -9086,7 +9147,7 @@ msgstr "ติดตั้งแล้ว"
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "Installed Features"
-msgstr ""
+msgstr "คุณสมบัติที่ถูกติดตั้ง"
 
 #. module: base
 #: field:ir.module.module,latest_version:0
@@ -9157,7 +9218,7 @@ msgstr ""
 #. module: base
 #: field:ir.cron,interval_type:0
 msgid "Interval Unit"
-msgstr ""
+msgstr "หน่วยของช่วงเวลา"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_intrastat
@@ -9307,9 +9368,14 @@ msgid "Invoice on Timesheets"
 msgstr ""
 
 #. module: base
+#: model:ir.ui.menu,name:base.menu_invoiced
+msgid "Invoicing"
+msgstr "การแจ้งหนี้"
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_account_voucher
 msgid "Invoicing & Payments"
-msgstr ""
+msgstr "การออกใบวางบิลและการชำระเงิน"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_journal
@@ -9334,7 +9400,7 @@ msgstr "ไอร์แลนด์"
 #. module: base
 #: field:res.partner,is_company:0
 msgid "Is a Company"
-msgstr ""
+msgstr "เป็นบริษัท"
 
 #. module: base
 #: view:res.partner:base.view_partner_form
@@ -9355,7 +9421,7 @@ msgstr "อิสราเอล"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_issue
 msgid "Issue Tracking"
-msgstr ""
+msgstr "การติดตามปัญหา"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -9597,6 +9663,11 @@ msgid "Last Modification Date"
 msgstr ""
 
 #. module: base
+#: field:ir.attachment,write_uid:0
+msgid "Last Modification User"
+msgstr ""
+
+#. module: base
 #: field:base.language.export,write_uid:0
 #: field:base.language.import,write_uid:0
 #: field:base.language.install,write_uid:0
@@ -9703,7 +9774,7 @@ msgstr "รุ่นล่าสุด"
 #. module: base
 #: field:res.users,login_date:0
 msgid "Latest connection"
-msgstr ""
+msgstr "เข้าใช้งานครั้งสุดท้าย"
 
 #. module: base
 #: model:res.country,name:base.lv
@@ -9750,6 +9821,11 @@ msgstr "Launchpad"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_project_issue
 msgid "Lead to Issue"
+msgstr ""
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_crm_config_lead
+msgid "Leads & Opportunities"
 msgstr ""
 
 #. module: base
@@ -9912,12 +9988,12 @@ msgstr "โหลดการแปล"
 #: model:ir.actions.act_window,name:base.open_module_tree
 #: model:ir.ui.menu,name:base.menu_module_tree
 msgid "Local Modules"
-msgstr ""
+msgstr "โมดูลภายใน"
 
 #. module: base
 #: field:res.lang,code:0
 msgid "Locale Code"
-msgstr ""
+msgstr "รหัสภูมิภาค"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_localization
@@ -10016,13 +10092,13 @@ msgstr "มาดากัสการ"
 #. module: base
 #: model:res.partner.title,name:base.res_partner_title_madam
 msgid "Madam"
-msgstr ""
+msgstr "นาง"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:503
 #, python-format
 msgid "Mail Delivery Failed"
-msgstr ""
+msgstr "การส่งอีเมลล้มเหลว"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:499
@@ -10078,6 +10154,16 @@ msgid "Malta"
 msgstr "มอลตา"
 
 #. module: base
+#: model:res.groups,name:base.group_multi_salesteams
+msgid "Manage Sales Teams"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_website_designer
+msgid "Manage Website and qWeb view"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
 "Manage and customize the items available and displayed in your Odoo system "
@@ -10110,7 +10196,9 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:res.groups,name:base.group_hr_manager
 #: model:res.groups,name:base.group_sale_manager
+#: model:res.groups,name:base.group_tool_manager
 msgid "Manager"
 msgstr "ผู้จัดการ"
 
@@ -10134,6 +10222,8 @@ msgstr "ผู้ผลิต"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_manufacturing
+#: model:ir.ui.menu,name:base.menu_mrp_config
+#: model:ir.ui.menu,name:base.menu_mrp_root
 msgid "Manufacturing"
 msgstr "การผลิต"
 
@@ -10173,6 +10263,8 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_marketing
 #: model:ir.module.module,shortdesc:base.module_marketing
+#: model:ir.ui.menu,name:base.marketing_menu
+#: model:ir.ui.menu,name:base.marketing_reporting_menu
 msgid "Marketing"
 msgstr "การตลาด"
 
@@ -10184,7 +10276,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_marketing_campaign
 msgid "Marketing Campaigns"
-msgstr ""
+msgstr "แคมเปญการตลาด"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_marketing_crm
@@ -10270,7 +10362,7 @@ msgstr "เมนู :"
 #: model:ir.actions.act_window,name:base.grant_menu_access
 #: model:ir.ui.menu,name:base.menu_grant_menu_access
 msgid "Menu Items"
-msgstr ""
+msgstr "รายการเมนู"
 
 #. module: base
 #: field:wizard.ir.model.menu.create,name:0
@@ -10286,7 +10378,7 @@ msgstr "เมนู"
 #. module: base
 #: view:res.users:base.view_users_form
 msgid "Menus Customization"
-msgstr ""
+msgstr "การปรับแต่งเมนู"
 
 #. module: base
 #: field:ir.logging,message:0
@@ -10296,7 +10388,7 @@ msgstr "ข้อความ"
 #. module: base
 #: view:res.users:base.view_users_form
 msgid "Messaging and Social"
-msgstr ""
+msgstr "ข้อความและสังคม"
 
 #. module: base
 #: field:ir.cron,function:0
@@ -10493,12 +10585,12 @@ msgstr "โมดูล"
 #: view:ir.module.category:base.view_module_category_form
 #: view:ir.module.category:base.view_module_category_tree
 msgid "Module Category"
-msgstr ""
+msgstr "หมวดโมดูล"
 
 #. module: base
 #: model:ir.actions.server,name:base.action_server_module_immediate_install
 msgid "Module Immediate Install"
-msgstr ""
+msgstr "ติดตั้งโมดูลทันที"
 
 #. module: base
 #: field:ir.module.module,shortdesc:0
@@ -10645,7 +10737,7 @@ msgstr "นาง."
 #. module: base
 #: model:res.groups,name:base.group_multi_company
 msgid "Multi Companies"
-msgstr ""
+msgstr "หลายบริษัท"
 
 #. module: base
 #: view:multi_company.default:base.view_inventory_form
@@ -10662,7 +10754,7 @@ msgstr "หลาย สกุลเงิน"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_multilang
 msgid "Multi Language Chart of Accounts"
-msgstr ""
+msgstr "ผังบัญชีหลายภาษา"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_multi_company
@@ -10677,7 +10769,7 @@ msgstr ""
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_search
 msgid "My Banks"
-msgstr ""
+msgstr "ธนาคารของฉัน"
 
 #. module: base
 #: view:ir.attachment:base.view_attachment_search
@@ -10817,7 +10909,7 @@ msgstr "หมายเลขต่อไป"
 #. module: base
 #: help:ir.sequence,number_next:0
 msgid "Next number of this sequence"
-msgstr ""
+msgstr "หมายเลขต่อไปของลำดับนี้"
 
 #. module: base
 #: help:ir.sequence,number_next_actual:0
@@ -10899,7 +10991,7 @@ msgstr ""
 #. module: base
 #: selection:ir.mail_server,smtp_encryption:0
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #. module: base
 #: model:res.country,name:base.nf
@@ -10939,7 +11031,7 @@ msgstr ""
 #. module: base
 #: selection:ir.module.module,state:0
 msgid "Not Installable"
-msgstr ""
+msgstr "ไม่สามารถติดตั้งได้"
 
 #. module: base
 #: view:ir.module.module:base.view_module_filter
@@ -11057,6 +11149,11 @@ msgid "Office Supplies"
 msgstr ""
 
 #. module: base
+#: model:res.groups,name:base.group_hr_user
+msgid "Officer"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_payment_ogone
 #: model:ir.module.module,shortdesc:base.module_payment_ogone
 msgid "Ogone Payment Acquirer"
@@ -11133,7 +11230,7 @@ msgstr ""
 #: code:addons/base/res/res_config.py:541
 #, python-format
 msgid "Only administrators can change the settings"
-msgstr ""
+msgstr "เฉพาะผู้ดูแลระบบเท่านั้นที่สามารถแก้ไขการตั้งค่าได้"
 
 #. module: base
 #: code:addons/base/ir/ir_attachment.py:80
@@ -11224,6 +11321,11 @@ msgstr "การดำเนินงานที่ยกเลิก"
 #, python-format
 msgid "Operation Forbidden"
 msgstr "การดำเนินงาน ต้องห้าม"
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_crm_config_opportunity
+msgid "Opportunities"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_crm
@@ -11334,7 +11436,7 @@ msgstr "เจ้าของ"
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #. module: base
 #: selection:base.language.export,format:0
@@ -11427,7 +11529,7 @@ msgstr "ประเภทสินค้าหลัก"
 #. module: base
 #: field:res.company,parent_id:0
 msgid "Parent Company"
-msgstr ""
+msgstr "บริษัทแม่"
 
 #. module: base
 #: field:ir.ui.menu,parent_left:0
@@ -11468,6 +11570,11 @@ msgid "Partner Assignation & Geolocation"
 msgstr ""
 
 #. module: base
+#: model:ir.actions.act_window,name:base.action_partner_mass_mail
+msgid "Partner Mass Mailing"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_partner
 msgid "Partner Module for Website"
 msgstr ""
@@ -11475,7 +11582,7 @@ msgstr ""
 #. module: base
 #: view:res.partner.category:base.view_partner_category_form
 msgid "Partner Tag"
-msgstr ""
+msgstr "แท็กคู่ค้า"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_by_category
@@ -11485,7 +11592,7 @@ msgstr ""
 #: view:res.partner.category:base.view_partner_category_list
 #: view:res.partner.category:base.view_partner_category_tree
 msgid "Partner Tags"
-msgstr ""
+msgstr "แท็กคู่ค้า"
 
 #. module: base
 #: view:res.partner.title:base.view_partner_title_form
@@ -11507,7 +11614,7 @@ msgstr "พาร์ทเนอร์"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_geolocalize
 msgid "Partners Geo-Localization"
-msgstr ""
+msgstr "การปรับเข้ากับท้องถิ่นคู่ค้า"
 
 #. module: base
 #: code:addons/base/res/res_partner.py:780
@@ -11533,7 +11640,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_payment
 msgid "Payment Acquirer"
-msgstr ""
+msgstr "ผู้รับชำระ"
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment
@@ -11569,6 +11676,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_transfer
 msgid "Payment Acquirer: Transfer Implementation"
+msgstr ""
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_sales_followup
+msgid "Payment Follow-up"
 msgstr ""
 
 #. module: base
@@ -11843,7 +11955,7 @@ msgstr "อักษรนำ"
 #. module: base
 #: help:ir.sequence,prefix:0
 msgid "Prefix value of the record for the sequence"
-msgstr ""
+msgstr "ค่า"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_instantclick
@@ -11899,6 +12011,11 @@ msgid "Product extension to track sales and purchases"
 msgstr ""
 
 #. module: base
+#: model:ir.ui.menu,name:base.menu_product
+msgid "Products"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_product
 msgid "Products & Pricelists"
 msgstr ""
@@ -11911,15 +12028,18 @@ msgstr "วันหมดอายุสินค้า"
 #. module: base
 #: model:res.partner.title,shortcut:base.res_partner_title_prof
 msgid "Prof."
-msgstr ""
+msgstr "ศ."
 
 #. module: base
 #: model:res.partner.title,name:base.res_partner_title_prof
 msgid "Professor"
-msgstr ""
+msgstr "ศาสตราจารย์"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_project_management
+#: model:ir.ui.menu,name:base.menu_main_pm
+#: model:ir.ui.menu,name:base.menu_project_config
+#: model:ir.ui.menu,name:base.menu_project_report
 msgid "Project"
 msgstr "โครงการ"
 
@@ -11931,7 +12051,7 @@ msgstr "การบริหารโครงการ"
 #. module: base
 #: model:ir.module.module,summary:base.module_project
 msgid "Projects, Tasks"
-msgstr ""
+msgstr "โปรเจค, งาน"
 
 #. module: base
 #: view:ir.model:base.view_model_form
@@ -12012,6 +12132,11 @@ msgid "Puerto Rico"
 msgstr "เปอร์โตริโก"
 
 #. module: base
+#: model:ir.ui.menu,name:base.next_id_73
+msgid "Purchase"
+msgstr "การขาย"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_analytic_plans
 msgid "Purchase Analytic Plans"
 msgstr ""
@@ -12033,6 +12158,7 @@ msgstr "ใบขอซื้อ"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_purchase_management
+#: model:ir.ui.menu,name:base.menu_purchase_root
 msgid "Purchases"
 msgstr "จัดซื้อ"
 
@@ -12060,7 +12186,7 @@ msgstr ""
 #. module: base
 #: view:ir.ui.view:base.view_view_search selection:ir.ui.view,type:0
 msgid "QWeb"
-msgstr ""
+msgstr "QWeb"
 
 #. module: base
 #: model:res.country,name:base.qa
@@ -12090,7 +12216,7 @@ msgstr ""
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view
 msgid "RML Configuration"
-msgstr ""
+msgstr "การตั้งค่า RML"
 
 #. module: base
 #: field:ir.actions.report.xml,report_rml_content:0
@@ -12204,6 +12330,11 @@ msgid "Record rules"
 msgstr ""
 
 #. module: base
+#: model:ir.ui.menu,name:base.menu_crm_case_job_req_main
+msgid "Recruitment"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment
 msgid "Recruitment Process"
 msgstr "ขั้นตอนการสรรหา"
@@ -12286,7 +12417,7 @@ msgstr "โหลดใหม่จากสิ่งที่แนบมา"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Remove from the 'More' menu"
-msgstr ""
+msgstr "นำออกจากเมนู 'เพิ่มเติม'"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -12325,12 +12456,12 @@ msgstr "รายงาน"
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "Report Configuration"
-msgstr ""
+msgstr "การตั้งค่ารายงาน"
 
 #. module: base
 #: field:ir.actions.report.xml,report_file:0
 msgid "Report File"
-msgstr ""
+msgstr "ไฟล์รายงาน"
 
 #. module: base
 #: field:res.company,rml_footer:0 field:res.company,rml_footer_readonly:0
@@ -12346,7 +12477,7 @@ msgstr ""
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
 #: field:ir.actions.report.xml,report_type:0
 msgid "Report Type"
-msgstr ""
+msgstr "ประเภทรายงาน"
 
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
@@ -12386,7 +12517,7 @@ msgstr "รายงาน :"
 #: view:res.request.link:base.res_request_link_search_view
 #: view:res.request.link:base.res_request_link_tree-view
 msgid "Request Link"
-msgstr ""
+msgstr "ขอลิงค์"
 
 #. module: base
 #: view:ir.model.fields:base.view_model_fields_search
@@ -12417,7 +12548,7 @@ msgstr "ทรัพยากร"
 #: field:ir.attachment,res_id:0 field:workflow.instance,res_id:0
 #: field:workflow.triggers,res_id:0
 msgid "Resource ID"
-msgstr ""
+msgstr "ID ทรัพยากร"
 
 #. module: base
 #: field:ir.attachment,res_model:0
@@ -12439,7 +12570,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_restaurant
 msgid "Restaurant"
-msgstr ""
+msgstr "ร้านอาหาร"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_restaurant
@@ -12647,7 +12778,9 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_sales_management
 #: model:ir.ui.menu,name:base.menu_base_partner
-#: model:ir.ui.menu,name:base.menu_sales
+#: model:ir.ui.menu,name:base.menu_sale_config
+#: model:ir.ui.menu,name:base.menu_sale_config_sales
+#: model:ir.ui.menu,name:base.menu_sales model:ir.ui.menu,name:base.next_id_64
 msgid "Sales"
 msgstr "การขาย"
 
@@ -12705,6 +12838,11 @@ msgstr "ซานมารีโน"
 #: model:res.country,name:base.sa
 msgid "Saudi Arabia"
 msgstr "ซาอุดิอาระเบีย"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_sa
+msgid "Saudi Arabia - Accounting"
+msgstr ""
 
 #. module: base
 #: view:res.users:base.view_users_form_simple_modif
@@ -12792,6 +12930,16 @@ msgid "Security and Authentication"
 msgstr "ระบบรักษาความปลอดภัยและการตรวจสอบ"
 
 #. module: base
+#: model:res.groups,name:base.group_sale_salesman
+msgid "See Own Leads"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_sale_salesman_all_leads
+msgid "See all Leads"
+msgstr ""
+
+#. module: base
 #: code:addons/base/ir/ir_fields.py:306
 #, python-format
 msgid "See all possible values"
@@ -12801,7 +12949,7 @@ msgstr ""
 #: code:addons/common.py:50
 #, python-format
 msgid "See http://openerp.com"
-msgstr ""
+msgstr "See http://openerp.com"
 
 #. module: base
 #: help:multi_company.default,field_id:0
@@ -12875,7 +13023,7 @@ msgstr "เซเนกัล"
 #. module: base
 #: field:res.lang,grouping:0
 msgid "Separator Format"
-msgstr ""
+msgstr "รูปแบบตัวแบ่ง"
 
 #. module: base
 #: field:ir.actions.act_window.view,sequence:0
@@ -12893,14 +13041,14 @@ msgstr "กำหนดเลขที่เอกสาร"
 #: model:ir.actions.act_window,name:base.ir_sequence_type
 #: model:ir.ui.menu,name:base.menu_ir_sequence_type
 msgid "Sequence Codes"
-msgstr ""
+msgstr "รหัสลำดับ"
 
 #. module: base
 #: field:ir.sequence,code:0 view:ir.sequence.type:base.sequence_type_form_view
 #: view:ir.sequence.type:base.sequence_type_tree_view
 #: view:ir.sequence.type:base.view_sequence_type_search
 msgid "Sequence Type"
-msgstr ""
+msgstr "ประเภทลำดับ"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_sequence_form
@@ -12985,7 +13133,7 @@ msgstr ""
 #. module: base
 #: field:res.users,new_password:0
 msgid "Set Password"
-msgstr ""
+msgstr "ตั้งรหัสผ่าน"
 
 #. module: base
 #: view:ir.actions.todo:base.config_wizard_step_view_form
@@ -13037,7 +13185,7 @@ msgstr "ส่งสินค้า"
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
 msgid "Showing locally available modules"
-msgstr ""
+msgstr "แสดงโมดูลภายใน"
 
 #. module: base
 #: model:res.country,name:base.sl
@@ -13098,7 +13246,7 @@ msgstr ""
 #: model:res.partner.title,name:base.res_partner_title_sir
 #: model:res.partner.title,shortcut:base.res_partner_title_sir
 msgid "Sir"
-msgstr ""
+msgstr "คุณ"
 
 #. module: base
 #: field:ir.model.fields,size:0
@@ -13383,6 +13531,11 @@ msgid "Sri Lanka"
 msgstr "ศรีลังกา"
 
 #. module: base
+#: model:ir.ui.menu,name:base.menu_project_config_project
+msgid "Stages"
+msgstr ""
+
+#. module: base
 #: selection:ir.sequence,implementation:0
 msgid "Standard"
 msgstr "มาตรฐาน"
@@ -13390,7 +13543,7 @@ msgstr "มาตรฐาน"
 #. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade_install
 msgid "Start configuration"
-msgstr ""
+msgstr "เริ่มการตั้งค่า"
 
 #. module: base
 #: code:addons/base/res/res_partner.py:69
@@ -13436,7 +13589,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_stock_management
 msgid "Stock Management"
-msgstr ""
+msgstr "การจัดการสต็อก"
 
 #. module: base
 #: selection:workflow.activity,kind:0
@@ -13446,7 +13599,7 @@ msgstr "หยุดทั้งหมด"
 #. module: base
 #: field:ir.attachment,store_fname:0
 msgid "Stored Filename"
-msgstr ""
+msgstr "ชื่อไฟล์ที่จัดเก็บ"
 
 #. module: base
 #: field:res.bank,street:0 field:res.company,street:0
@@ -13534,6 +13687,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_supplier_form
+#: model:ir.ui.menu,name:base.menu_procurement_management_supplier_name
 #: view:res.partner:base.view_res_partner_filter
 msgid "Suppliers"
 msgstr "ผู้จำหน่าย"
@@ -13557,6 +13711,16 @@ msgstr "ซูรินาเม"
 #: model:ir.module.module,shortdesc:base.module_survey
 msgid "Survey"
 msgstr "การสำรวจ"
+
+#. module: base
+#: model:res.groups,name:base.group_survey_manager
+msgid "Survey / Manager"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_survey_user
+msgid "Survey / User"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_survey_crm
@@ -13601,14 +13765,14 @@ msgstr "สัญลักษณ์"
 #. module: base
 #: field:res.currency,position:0
 msgid "Symbol Position"
-msgstr ""
+msgstr "ตำแหน่งสัญลักษณ์"
 
 #. module: base
 #: view:base.update.translations:base.wizard_update_translations
 #: model:ir.actions.act_window,name:base.action_wizard_update_translations
 #: model:ir.ui.menu,name:base.menu_wizard_update_translations
 msgid "Synchronize Terms"
-msgstr ""
+msgstr "ประสานคำศัพท์"
 
 #. module: base
 #: view:base.update.translations:base.wizard_update_translations
@@ -13765,16 +13929,22 @@ msgstr "Technical Features"
 #. module: base
 #: field:ir.module.module,name:0
 msgid "Technical Name"
-msgstr ""
+msgstr "ชื่อทางเทคนิค"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden
+#: view:res.users:base.user_groups_view
 msgid "Technical Settings"
 msgstr "ตั้งค่า Technical"
 
 #. module: base
 #: model:ir.actions.report.xml,name:base.ir_module_reference_print
 msgid "Technical guide"
+msgstr ""
+
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_17
+msgid "Telecom sector"
 msgstr ""
 
 #. module: base
@@ -13785,7 +13955,7 @@ msgstr ""
 #. module: base
 #: field:ir.actions.report.xml,report_name:0
 msgid "Template Name"
-msgstr ""
+msgstr "ชื่อแม่แบบ"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_chart
@@ -13836,7 +14006,7 @@ msgstr "ประเทศไทย"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_th
 msgid "Thailand - Accounting"
-msgstr ""
+msgstr "ประเทศไทย - การบัญชี"
 
 #. module: base
 #: help:res.country,code:0
@@ -13889,7 +14059,7 @@ msgstr ""
 #: code:addons/base/module/module.py:519
 #, python-format
 msgid "The `base` module cannot be uninstalled"
-msgstr ""
+msgstr "โมดูล base ไม่สามารถถูกถอนการติดตั้งได้"
 
 #. module: base
 #: help:res.partner.category,active:0
@@ -14029,7 +14199,7 @@ msgstr ""
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid "The next step depends on the file format:"
-msgstr ""
+msgstr "ขั้นตอนต่อไปขึ้นอยู่กับประเภทของไฟล์"
 
 #. module: base
 #: code:addons/model.py:131
@@ -14113,7 +14283,7 @@ msgid ""
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
 "\n"
 "(Document type: %s, Operation: %s)"
-msgstr ""
+msgstr "ในเอกสารประเภท%s การขอ%sนี้ ไม่ได้รับอนุญาตเนื่องจากข้อจำกัดด้านความปลอดภัย กรุณาติดต่อผู้ดูแลระบบ"
 
 #. module: base
 #: code:addons/fields.py:913
@@ -14433,7 +14603,7 @@ msgstr "ข้อตกลงและเงื่อนไขที่แปล
 #. module: base
 #: field:ir.translation,name:0
 msgid "Translated field"
-msgstr ""
+msgstr "ฟิลด์ที่ถูกแปล"
 
 #. module: base
 #: view:ir.translation:base.view_translation_form
@@ -14443,7 +14613,7 @@ msgstr "คำแปล"
 #. module: base
 #: field:ir.translation,value:0
 msgid "Translation Value"
-msgstr ""
+msgstr "ค่าการแปล"
 
 #. module: base
 #: field:ir.translation,comments:0
@@ -14609,7 +14779,7 @@ msgstr "ยูกันดา"
 #. module: base
 #: field:ir.logging,create_uid:0
 msgid "Uid"
-msgstr ""
+msgstr "Uid"
 
 #. module: base
 #: model:res.country,name:base.ua
@@ -14655,7 +14825,7 @@ msgstr ""
 #. module: base
 #: view:ir.ui.view:base.view_view_search
 msgid "Unactive"
-msgstr ""
+msgstr "ปิดการใช้งาน"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_uncategorized
@@ -14772,7 +14942,7 @@ msgstr "ปรับปรุง โมดูล"
 #. module: base
 #: view:base.module.update:base.view_base_module_update
 msgid "Update Module List"
-msgstr ""
+msgstr "รายการอัพเดตโมดูล"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_view_base_module_update
@@ -14782,7 +14952,7 @@ msgstr "ปรับปรุงรายการโมดูล"
 #. module: base
 #: field:ir.actions.server,use_write:0
 msgid "Update Policy"
-msgstr ""
+msgstr "อัปเดตนโยบาย"
 
 #. module: base
 #: view:res.lang:base.res_lang_tree
@@ -14889,7 +15059,8 @@ msgstr ""
 #: field:change.password.user,user_id:0 view:ir.cron:base.ir_cron_view_search
 #: field:ir.cron,user_id:0 view:ir.filters:base.ir_filters_view_search
 #: field:ir.filters,user_id:0 field:ir.ui.view.custom,user_id:0
-#: field:ir.values,user_id:0 model:res.groups,name:base.group_sale_salesman
+#: field:ir.values,user_id:0 model:res.groups,name:base.group_document_user
+#: model:res.groups,name:base.group_tool_user
 #: view:res.users:base.view_users_search field:workflow.instance,uid:0
 msgid "User"
 msgstr "ผู้ใช้งาน"
@@ -15185,6 +15356,12 @@ msgid "Warning!"
 msgstr "คำเตือน!"
 
 #. module: base
+#: code:addons/models.py:5803 code:addons/models.py:5856
+#, python-format
+msgid "Warnings"
+msgstr ""
+
+#. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade_install
 msgid ""
 "We suggest to reload the menu tab to see the new menus (Ctrl+T then Ctrl+R)."
@@ -15229,7 +15406,7 @@ msgstr ""
 #. module: base
 #: view:ir.translation:base.view_translation_search
 msgid "Web-only translations"
-msgstr ""
+msgstr "คำแปลบนเว็บเท่านั้น"
 
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
@@ -15490,12 +15667,12 @@ msgstr ""
 #: view:ir.model.access:base.ir_access_view_search
 #: field:ir.model.access,perm_write:0
 msgid "Write Access"
-msgstr ""
+msgstr "สิทธิ์การแก้ไข"
 
 #. module: base
 #: view:ir.rule:base.view_rule_search
 msgid "Write Access Right"
-msgstr ""
+msgstr "สิทธิ์การแก้ไข"
 
 #. module: base
 #: help:ir.actions.server,code:0
@@ -15727,7 +15904,7 @@ msgstr "เลือก"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "condition: True"
-msgstr ""
+msgstr "condition: True"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -15748,7 +15925,7 @@ msgstr ""
 #: code:addons/models.py:4299
 #, python-format
 msgid "created."
-msgstr ""
+msgstr "ถูกสร้างแล้ว"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:315
@@ -15786,7 +15963,7 @@ msgstr "ต.ย. Global Business Solutions"
 #: view:res.partner:base.view_partner_form
 #: view:res.partner:base.view_partner_simple_form
 msgid "e.g. Sales Director"
-msgstr ""
+msgstr "เช่น ผู้จัดการการขาย"
 
 #. module: base
 #: view:base.language.import:base.view_base_import_language
@@ -15797,7 +15974,7 @@ msgstr "e.g. en_US"
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
 msgid "e.g. www.odoo.com"
-msgstr ""
+msgstr "เช่น www.example.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale
@@ -15822,7 +15999,7 @@ msgstr ""
 #. module: base
 #: view:res.users:base.view_users_simple_form
 msgid "email@yourcompany.com"
-msgstr ""
+msgstr "email@yourcompany.com"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:329
@@ -15852,7 +16029,7 @@ msgstr "ได้รับ"
 #: selection:base.language.install,state:0
 #: selection:base.module.update,state:0
 msgid "init"
-msgstr ""
+msgstr "init"
 
 #. module: base
 #: selection:ir.ui.menu,action:0
@@ -15877,12 +16054,12 @@ msgstr "ir.actions.report.xml"
 #. module: base
 #: selection:ir.ui.menu,action:0
 msgid "ir.actions.server"
-msgstr ""
+msgstr "ir.actions.server"
 
 #. module: base
 #: selection:ir.ui.menu,action:0
 msgid "ir.actions.wizard"
-msgstr ""
+msgstr "ir.actions.wizard"
 
 #. module: base
 #: model:res.partner.title,shortcut:base.res_partner_title_ltd
@@ -15899,7 +16076,7 @@ msgstr ""
 #: code:addons/base/ir/ir_ui_view.py:346
 #, python-format
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:339
@@ -15928,12 +16105,12 @@ msgstr ""
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "object.partner_id"
-msgstr ""
+msgstr "object.partner_id"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "object.partner_id.currency_id"
-msgstr ""
+msgstr "object.partner_id.currency_id"
 
 #. module: base
 #: view:ir.attachment:base.view_attachment_form
@@ -15961,7 +16138,7 @@ msgstr "หรือ"
 msgid ""
 "partner_name = obj.name + '_code'\n"
 "                                                self.pool[\"res.partner\"].create(cr, uid, {\"name\": partner_name}, context=context)"
-msgstr ""
+msgstr "partner_name = obj.name + '_code'\n                                                self.pool[\"res.partner\"].create(cr, uid, {\"name\": partner_name}, context=context)"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -15972,7 +16149,7 @@ msgstr ""
 #: code:addons/mail.py:285
 #, python-format
 msgid "read more"
-msgstr ""
+msgstr "อ่านเพิ่ม"
 
 #. module: base
 #: view:res.config:base.res_config_view_base
@@ -15992,52 +16169,90 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_exceptions
 msgid "test-exceptions"
-msgstr ""
+msgstr "test-exceptions"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_converter
 msgid "test-field-converter"
-msgstr ""
+msgstr "test-field-converter"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_impex
 msgid "test-import-export"
-msgstr ""
+msgstr "test-import-export"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_inherit
 msgid "test-inherit"
-msgstr ""
+msgstr "test-inherit"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_inherits
 msgid "test-inherits"
-msgstr ""
+msgstr "test-inherits"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_limits
 msgid "test-limits"
-msgstr ""
+msgstr "test-limits"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_uninstall
 msgid "test-uninstall"
-msgstr ""
+msgstr "test-uninstall"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_workflow
 msgid "test-workflow"
-msgstr ""
+msgstr "test-workflow"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_convert
 msgid "test_convert"
+msgstr "test_convert"
+
+#. module: base
+#: model:res.groups,comment:base.group_hr_user
+msgid "the user will be able to approve document created by employees."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_user
+msgid ""
+"the user will be able to manage his own human resources stuff (leave "
+"request, timesheets, ...), if he is linked to an employee in the system."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_sale_salesman_all_leads
+msgid ""
+"the user will have access to all records of everyone in the sales "
+"application."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_sale_salesman
+msgid "the user will have access to his own data in the sales application."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_hr_manager
+msgid ""
+"the user will have an access to the human resources configuration as well as"
+" statistic reports."
+msgstr ""
+
+#. module: base
+#: model:res.groups,comment:base.group_sale_manager
+msgid ""
+"the user will have an access to the sales configuration as well as statistic"
+" reports."
 msgstr ""
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "time: Python time module"
-msgstr ""
+msgstr "time: Python time module"
 
 #. module: base
 #: view:res.config.installer:base.res_config_installer
@@ -16053,13 +16268,13 @@ msgstr "จริง"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "uid: current user id"
-msgstr ""
+msgstr "uid: current user id"
 
 #. module: base
 #: code:addons/fields.py:242
 #, python-format
 msgid "undefined get method !"
-msgstr ""
+msgstr "undefined get method !"
 
 #. module: base
 #: field:base.language.export,state:0 field:ir.ui.menu,icon_pict:0
@@ -16071,7 +16286,7 @@ msgstr "ไม่ทราบ"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "workflow: Workflow engine"
-msgstr ""
+msgstr "workflow: Workflow engine"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:145
@@ -16087,4 +16302,4 @@ msgstr "หมู่เกาะโอแลนด์"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn
 msgid "中国会计科目表"
-msgstr ""
+msgstr "中国会计科目表"
